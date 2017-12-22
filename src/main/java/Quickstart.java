@@ -185,6 +185,10 @@ public class Quickstart {
      *
      * @param args firestore-project-id (optional)
      */
+
+    // be sure to set this up in your Environment Variables.  Intellij allows them to be set in the IDE
+    // export GOOGLE_APPLICATION_CREDENTIALS="path/to/your/keyfile.json"
+
     public static void main(String[] args) throws Exception {
         // default project is will be used if project-id argument is not available
         //String projectId = (args.length == 0) ? null : args[0];
